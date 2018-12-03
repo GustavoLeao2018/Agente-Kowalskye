@@ -35042,6 +35042,7 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.progressbar.prototype.acts.SetMaximum,
 		cr.system_object.prototype.cnds.IsMobile,
 		cr.plugins_.Sprite.prototype.acts.SetVisible,
+		cr.plugins_.Touch.prototype.cnds.OnTouchStart,
 		cr.plugins_.Browser.prototype.cnds.SupportsFullscreen,
 		cr.plugins_.Browser.prototype.acts.RequestFullScreen,
 		cr.plugins_.Browser.prototype.cnds.IsPortraitLandscape,
