@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="br.com.wordpress.gustavoleaoblog" version="1.0.0.0" android-versionCode="1000000" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>Agente_Kowalskye</name>
+	<description>Agente Kowalskye</description>
+	<author href="gustavoleaoblog.wordpress.com.br"></author>
+
+	<allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
+
+	<icon src="www/icons/icon-512.png" width="512" height="512" density="xxxhdpi" />
+	<icon src="www/icons/icon-256.png" width="256" height="256" />
+	<icon src="www/icons/icon-128.png" width="128" height="128" density="xhdpi" />
+	<icon src="www/icons/icon-64.png" width="64" height="64" density="mdpi" />
+	<icon src="www/icons/icon-32.png" width="32" height="32" />
+	<icon src="www/icons/icon-16.png" width="16" height="16" />
+
+	<plugin name="cordova-plugin-whitelist" />
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="LoadUrlTimeoutValue" value="120000" />
+	<access origin="*" />
+
+	<engine name="android" />
+
+	<platform name="android">
+		<splash src="www/icons/default@2x~universal~anyany.png" />
+		<preference name="android-minSdkVersion" value="21" />
+		<preference name="android-targetSdkVersion" value="26" />
+	</platform>
+
+	<preference name="phonegap-version" value="cli-8.0.0" /></widget>
