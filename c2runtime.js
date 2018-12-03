@@ -35042,12 +35042,13 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.progressbar.prototype.acts.SetMaximum,
 		cr.system_object.prototype.cnds.IsMobile,
 		cr.plugins_.Sprite.prototype.acts.SetVisible,
+		cr.plugins_.Browser.prototype.cnds.SupportsFullscreen,
+		cr.plugins_.Browser.prototype.acts.RequestFullScreen,
+		cr.plugins_.Browser.prototype.cnds.IsPortraitLandscape,
 		cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
 		cr.plugins_.Sprite.prototype.acts.MoveAtAngle,
 		cr.plugins_.Touch.prototype.cnds.OnTouchEnd,
-		cr.system_object.prototype.acts.SetVar,
-		cr.plugins_.Browser.prototype.cnds.SupportsFullscreen,
-		cr.plugins_.Browser.prototype.acts.RequestFullScreen
+		cr.system_object.prototype.acts.SetVar
 	];
 };
 
