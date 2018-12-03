@@ -1,13 +1,17 @@
 "use strict";
 
-(function() {
-
-	document.addEventListener("deviceready", function ()
+(function () {
+	
+	function Start()
 	{
 		window.cr_createRuntime({
-			exportType: "cordova"
+			exportType: "html5"
 		});
-
-	}, false);
+	};
+	
+	if (document.readyState === "loading")
+		document.addEventListener("DOMContentLoaded", Start);
+	else
+		Start();
 	
 })();
