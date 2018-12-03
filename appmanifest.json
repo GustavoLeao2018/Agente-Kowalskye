@@ -1,7 +1,7 @@
 {
 	"name": "Agente_Kowalskye",
 	"short_name": "Agente_Kowalskye",
-	"description": "Agente Kowalskye",
+	"description": "",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
